@@ -11,12 +11,19 @@
             width: 300px;  
             height: 80px;  
         }
+        #buscaNome {
+            width: 300px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Encurtador de mensagens </h1>
+    <h1>Encurtador de mensagens</h1>
     
     <input type="file" id="inputArquivo" accept=".xlsx" />
+    <br><br>
+    
+    <input type="text" id="buscaNome" placeholder="Buscar por nome" />
     <br><br>
     
     <textarea id="mensagem" placeholder="área para a mensagem"></textarea>
@@ -26,6 +33,7 @@
         <thead>
             <tr>
                 <th>Nome</th>
+                <th>Sobrenome</th>
                 <th>Telefone</th>
                 <th>Enviar</th>
             </tr>
